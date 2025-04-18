@@ -331,7 +331,8 @@
 
 .sec1 {
             height: 130vh;
-            padding-top: 120px;
+            
+            padding: 120px 40px 0px;
 }
 .sec1 .container h2 {
     text-align: center;
