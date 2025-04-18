@@ -330,7 +330,7 @@
     width: 100%; }
 
 .sec1 {
-    height: 900px;
+    height: 100%;
     padding: 120px 20px 0px;
 }
 .sec1 .container h2 {
@@ -341,5 +341,16 @@
 .nav .container ul {
     padding: 0;
 }
-
+.container .sec1-button {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.container .sec1-button .sec1-button1 {
+    margin: 0;
+}
+.container .sec1-button .sec1-button2 {
+    margin-bottom: 20px;
+}
 }
