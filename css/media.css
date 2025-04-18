@@ -302,9 +302,7 @@
     }
     .sec3-pics div {
         width: 90%;}
-    .sec1{
-        height: 100%;
-    }
+
     .sec1 .container {
         width: 100%;
         flex-direction: column-reverse;
@@ -332,7 +330,7 @@
     width: 100%; }
 
 .sec1 {
-            height: 130vh;
+            height: 100%;
             
             padding: 120px 20px 0px;
 }
