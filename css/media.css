@@ -297,12 +297,13 @@
     }
 
     .group .icon-sec4 img {
-        width: 65%;
+        width: 95%;
+        padding-left: 1px;
     }
     .sec3-pics div {
         width: 90%;}
     .sec1{
-        height: 150vh;
+        height: 100vh;
     }
     .sec1 .container {
         width: 100%;
@@ -318,7 +319,7 @@
         width: 30%;
     }
     .quick ul li {
-        width: 46.3%;
+        width: 45%;
     }
     .sec4 .container {
         width: 90%;
