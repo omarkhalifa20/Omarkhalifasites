@@ -314,8 +314,9 @@
     .footer .container {
         width: 90%;
     }
+    
     .sub-input .btn-sub {
-        width: 30%;
+        width: 100%;
     }
     .sec2-cards .card {
         width: 90%;}
@@ -356,5 +357,13 @@
 }
 .container .sec1-button .sec1-button2 {
     margin-bottom: 20px;
+}
+.foot-gr2 .sub-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.sub-input input {
+    width: 100%;
 }
 }
