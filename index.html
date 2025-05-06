@@ -3,394 +3,557 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./icons/favicon.png">
+    <link href="./img/logo.png" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Lalezar&family=Righteous&family=Shadows+Into+Light&display=swap" rel="stylesheet"><link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/media.css">
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <title>Mealify</title>
+    
+    <title>Black Horse Academy</title>
 </head>
-<body>
-    <div class="nav">
-        <div class="container">
-     <a class="logo" href="./index.html">Mealify</a>   
-        <ul class="list-nav">
-            <li >
-                <a id="home-li" class="home-a" href="#home">Home</a>
-            </li>
-            <li>
-                <a class="chefs-a" href="#chefs">Chefs</a>
-            </li>
-            <li>
-                <a class="gallery-a" href="#gallery">Gallery</a>
-            </li>
-            <li>
-                <a class="contact-a" href="#contact">Contact</a>
-            </li>
+<body data-bs-spy="scroll">
+  <nav class="navbar position-relative m-auto rounded-3 shadow  mt-3 w-75 header py-3 position-fixed fixed-top navbar-expand-lg ">
+    <div class="container ms-2 ps-0">
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span ><i class="fa-solid fa-bars  fs-4 text-white"></i></span>
+      </button>
+      <a class="navbar-brand fw-semibold" href="./index.html"><img class="logo-img" src="./img/logo.png" alt="logo"></a>
+      <div class="collapse text-end text-md-center  text-sm-center ms-5 ms-lg-0 navbar-collapse " id="navbarSupportedContent">
+        
+        <ul class="navbar-nav text-center ms-5 ms-md-0 ms-lg-0  md-auto fw-medium mb-2 mb-lg-0 ">
+          <li class="nav-item  ">
+            <a class="nav-link  active position-relative  " aria-current="page" href="#home">HOME</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#services">SERVICES</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#work">ACHIEVEMENTS</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#blog">BLOG</a>
+          </li>
+        
         </ul>
-     <img src="./icons/moon.png" alt="moon">
+
+        <ul class="navbar-nav ul-demo justify-content-center justify-content-sm-end justify-content-md-end  flex-sm-row  ms-auto fw-medium mb-2 mb-lg-0  ">
+          <li class="nav-item ps-0 me-2 me-lg-0 px-1 px-md-1 ms-5 ms-md-0 ms-lg-0">
+            <a class="nav-link " aria-current="page" href="https://www.facebook.com/Capitanomohamedhossam14"><i class="fa-brands fs-4 fa-facebook"></i></a>
+          </li>
+          <li class="nav-item me-2 me-lg-0  px-md-1">
+            <a class="nav-link" href="https://www.tiktok.com/@blackhorseacademy"><i class="fa-brands fs-4 fa-tiktok" ></i></a>
+          </li>
+          <li class="nav-item me-2 me-lg-0 px-md-1">
+            <a class="nav-link" href="https://wa.link/7wvgdi"><i class="fa-brands fs-4 fa-youtube" ></i></a>
+          </li>
+          <li class="nav-item  px-1">
+            <a class="nav-link" href="https://www.youtube.com/@blackhorseacademy"><i class="fa-brands fa-whatsapp fs-4"></i></a>
+          </li>
+       
+        </ul>
+
+      </div>
+      
+     
+      
+      
+    </div>
+  </nav>
+
+  <section class="d-flex flex-column align-items-center justify-content-center" id="home">
+    <h1 class=" text-center text-white">
+      Black Horse Academy
+    </h1>
+    <p class="text-white fs-1 type fw-medium mt-2"></p>
+
+    <a type="button" href="https://wa.link/7wvgdi" class="btn mt-5  "><i class="fa-brands me-1 fa-whatsapp fs-5" ></i> Contact Us</a>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="row row-1">
+      <div class="parent-demo">
+        <div class="demo rounded-3 mb-5">
+          <div class="row flex-column-reverse align-items-center flex-md-column-reverse flex-lg-row">
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+              <img class="w-100 shadow-lg rounded-3" src="./img/about.jpeg" alt="black horse academy">
+              
+
+            </div>
+            <div class="col-md-6">
+              <div class="mb-2">
+                <h5 class="fs-2 mb-2 text-black position-relative leftsec-h5 text-center ">About Us</h5>
+              </div>
+              <p class=" fs-5 fw-bold text-black text-center">من نحن – أكاديمية بلاك هورس لكرة القدم</p>
+              <p class=" fw-normal text-white">
+                <span class="text-black d-block mb-2 fw-bolder">مين إحنا؟</span>
+                إحنا أكاديمية بلاك هورس لكرة القدم، واحدة أقوى الأكاديميات في كفر الدوار، ومشروع هدفه مش بس تعليم الكورة، لكن كمان بناء لاعب متكامل ذهنيًا، بدنيًا، واجتماعيًا.
+              </p>
+              <p class=" fw-normal text-white">
+                <span class="text-black d-block mb-2 fw-bolder">رسالتنا :</span>
+                نقدم بيئة تعليمية آمنة واحترافية، تساعد كل طفل على اكتشاف قدراته وتطويرها من خلال كرة القدم، بأسلوب علمي وتربوي يراعي كل مرحلة عمرية.
+              </p>
+              <p class=" fw-normal text-white">
+                <span class="text-black d-block mb-2 fw-bolder">رؤيتنا :</span>
+                نصنع جيل جديد من اللاعبين المصريين بفكر احترافي، ننافس بيه محليًا وعالميًا.
+                نحط كفر الدوار على خريطة المواهب الكروية في مصر والعالم.
+              </p>
+              <p class=" fw-normal mb-0 text-white">
+                <span class="text-black d-block mb-2 fw-bolder">قيمنا :</span></p>
+                <div class="d-flex justify-content-between">
+                  <ul class="list-unstyled mb-0 fw-normal text-white p-0">
+                    <li>
+                    <p class="ul-p" >- الاحترام: داخل وخارج الملعب</p>
+                  </li>
+                  <li>
+                    <p class="ul-p">- روح الفريق: لأننا نكسب مع بعض، ونتعلم مع بعض</p>
+                  </li>
+                  </ul>
+                <ul class="list-unstyled mb-0 fw-normal text-white p-0">
+                  <li>
+                    <p class="ul-p">- الالتزام: في المواعيد، الأسلوب، والمعاملة</p>
+                  </li>
+                  <li>
+                   <p class="ul-p">- التطوير المستمر: في التدريب والمناهج</p>
+                  </li>
+                </ul>
+                
+               </div>
+
+              <p class=" fw-normal text-white">
+                <span class="text-black d-block mb-2 fw-bolder">فلسفتنا :</span>
+                بناء رياضي مثقف وسوي اهم من صناعة لاعب كرة قدم فقط.
+              </p>
+
+              <p class=" fw-normal mb-0 text-white">
+                <span class="text-black d-block mb-2 fw-bolder">ليه تختار بلاك هورس؟</span></p>
+                <div class="d-flex justify-content-between">
+                  <ul class="list-unstyled mb-0 fw-normal text-white p-0">
+                    <li>
+                    <p class="ul-p" >- شراكات بطولات واختبارات في أندية كبيرة                    </p>
+                  </li>
+                  <li>
+                    <p class="ul-p">- اهتمام بالنفسية، التغذية، والانضباط الشخصي</p>
+                  </li>
+                  </ul>
+                <ul class="list-unstyled mb-0 fw-normal text-white p-0">
+                  <li>
+                    <p class="ul-p">- مدربين معتمدين بخبرات كبيرة </p>
+                  </li>
+                  <li>
+                   <p class="ul-p">- برامج تدريبية خاصة لكل سن </p>
+                  </li>
+                  <li>
+                    <p class="ul-p"> - نظام تقييم دوري وتقرير لكل لاعب</p>
+                   </li>
+                </ul>
+                
+               </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+
+  </section>
+  
+  <section id="scrollsec3">
+    <div class="container">
+      <div class="row">
+      <div class="text-center position-relative mb-3 sec-head">
+        <h3 class=" fw-bold fs-1">Our Coaches</h3>
+        <p class="text-white">افضل فريق عمل أكاديمى </p>
+     </div>
+      
+        <div class="col-md-12 text-center ">
+          
+          <img class="rounded-4 " src="./img/head.jpeg" alt="Coaches">
+
+        </div>
+      </div>
+    </div>
+   </section>
+
+  <section id="services">
+    <div class="container">
+      <div class="text-center">
+        <h3 class=" fs-1  fw-bold">Services</h3>
+        <p  class="text-white mb-1">في أكاديمية بلاك هورس، إحنا مش مجرد مكان لتعليم كرة القدم، إحنا مصنع أبطال</p>
+        <p class="text-white">هدفنا نطوّر كل لاعب بشكل شامل: فنياً، بدنياً، ذهنياً، وتكتيكياً. خدماتنا متنوعة ومتكاملة وبتناسب كل الأعمار والمستويات</p>
+     </div>
+
+     <div class="row">
+      <div class="col-md-6 col-lg-3 px-md-1">
+        <div class="card mt-4">
+          <img src="./img/1000616519.png" class="card-img-top" alt="plan">
+          <div class="card-body card-1">
+            <h5 class="card-title  fs-5 text-center mb-3">الخطط والبرامح التدريبية</h5>
+            <p class="text-white">بنقدم برامج تدريب احترافية وتقييم شامل للأداء و خطط تدريب خاصة بكل فئة عمرية، بتركّز على تطوير المهارات، اللياقة، والفهم الخططي، مع تقييم مستمر باستخدام الفيديو والتحليلات الدقيقة. كل لاعب بيحصل على تقرير شهري يُوضح تقدّمه، ونُحدث خطته بناءً على اختبارات فنية وبدنية وتكتيكية منتظمة</p>
+              </div>
+
+                
+            </div>
+           </div>
+
+           <div class="col-md-6 col-lg-3 px-md-1">
+            <div class="card mt-4 ">
+              <img src="./img/babys-brain-development.png" class="card-img-top" alt="brain">
+              <div class="card-body  card-2">
+                <h5 class="card-title  fs-5 text-center mb-3">البناء ذهني</h5>
+                <p class="text-white">بناء ذهني وشخصي ورياضي متكامل اللاعب في بلاك هورس بيتعلم إزاي يكون قائد، واثق، مركز، ومنضبط داخل وخارج الملعب. بننظم جلسات خاصة لتقوية الجانب الذهني، ونستخدم الشطرنج كوسيلة عبقرية لتطوير التفكير الخططي واتخاذ القرار تحت الضغط.</p>
+                  </div>
+    
+                    
+                </div>
+               </div>
+               <div class="col-md-6 col-lg-3 px-md-1">
+                <div class="card mt-4">
+                  <img src="./img/boys-campus-life-7.png" class="card-img-top" alt="CAMP">
+                  <div class="card-body card-3   ">
+                    <h5 class="card-title  fs-5 text-center mb-3">بطولات و معسكرات</h5>
+                    <p class="text-white">  بننظّم بطولات داخلية وخارجية، ونشارك في أقوى المنافسات، بجانب تنظيم معسكرات تدريبية عالية المستوى. ده بيتيح للاعبين احتكاك حقيقي وتجربة غنية بتسرّع تطورهم وبتوسع أفقهم.</p>
+                      </div>
+        
+                        
+                    </div>
+                   </div>
+
+
+                   <div class="col-md-6 col-lg-3  px-md-1">
+                    <div class="card mt-4">
+                      <img src="./img/e95f2b30-b3a8-11ee-9bff-4f4b12a2034d.png" class="card-img-top" alt="plan">
+                      <div class="card-body card-4">
+                        <h5 class="card-title  fs-5 text-center mb-3">التسويق </h5>
+                        <p class="text-white"> من أول التوعية بالغذاء السليم، لتصوير وتحليل المباريات، لحد تسويق اللاعب للأندية المحلية والدولية. إحنا بنرعى كل تفاصيل الرحلة، ونساعد كل موهبة توصل للفرصة المناسبة في الوقت المناسب.</p>
+                          </div>
+            
+                            
+                        </div>
+                       </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </div>
+
+      
+
+
+    </div>
+
+
+  </section>
+
+  <section id="scrollsec">
+    <div class="container">
+     <div class="row">
+      <div class="parent-demo">
+      <div class="demo rounded-3 p-4 mb-5">
+        <h5 class="text-white fs-4 mb-4 text-center fw-bold">
+          جدول المواعيد
+        </h5>
+        <table class="table text-center">
+          <thead >
+            <tr>
+              
+              <th scope="col">الاربعاء</th>
+              <th scope="col">الاحد</th>
+              <th scope="col">م</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr> 
+              
+              <td>7</td>
+              <td>7</td>
+              <th scope="row">من</th>
+             
+            </tr>
+            <tr>
+              
+              <td>9</td>
+              <td>9</td>
+              <th scope="row">إلى</th>
+            </tr>
+            <tr >
+              
+              <td colspan="3">العنوان : ملعب الكشاف بعد الساحه ب200متر</td>
+              
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    
+    </div>
      </div>
     </div>
+   </section>
 
-    <div id="home" class="sec1">
-       <div class="container">
-        <div class="sec1-content">
-        <h2>Enjoy Your Healthy <br> Delicious Food</h2>
-        <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
-        <div class="sec1-button">
-        <a class="sec1-button1" href="#contact">Book a Table</a>
-        <a class="sec1-button2" href="https://youtube.com/">
-            <div class="li-icon">
-                <img src="./icons/Untitled5.png" alt="play-black">
-                <img class="playred" src="./icons/Untitled6.png" alt="play-black">
+   <section id="work">
+    <div class="container">
+      <div class="text-center position-relative mb-5 sec-head">
+        <h3 class=" fw-bold fs-1">ACHIEVEMENTS</h3>
+        <p class="text-white">بعض من البطولات والانجازات لابطالنا</p>
+     </div>
+      <div class="row">
+        <div class="parent-demo">
+          <div class="demo rounded-3 p-4 mb-5">
+        <div class="col-md-12">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              
             </div>
-            Watch a Video
-        </a>
-        </div>
-        </div>
-        <div class="sec1-img">
-         <img src="./imgs/hero-img.png" alt="Healthy meal">
-        </div>  
-         
-       </div>
-    </div>
-    <div id="chefs" class="sec2">
-        <div class="container">
-        <div class="sec2-head">
-            <h2>CHEFS</h2>
-            <p>Our <span>Proffesional</span> Chefs</p>
-        </div>
-        <div class="sec2-cards">
-            <div class="card">
-                <div class="cardpic">
-                <img src="./imgs/chefs-1.jpg" alt="Walter White">
-                </div>
-                <div class="cardcontent">
-                <h3>Walter White</h3>
-                <span>Master Chef</span>
-                <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p> 
-                </div>
-                <div class="cardicons">
-                    <ul>
-                        <li>
-                            <a href="https://twitter.com/"><img src="./icons/twitter (2).png" alt="twitter"></a>
-                        </li>
-                        
-                        <li>
-                            <a href="https://facebook.com/"><img src="./icons/facebook-app-symbol.png" alt="facebook"></a>
-                        </li>
-
-                        <li>
-                            <a href="https://instagram.com/"><img src="./icons/instagram.png" alt="instagram"></a>   
-                        </li>
-
-                        <li>
-                            <a href="https://linkedin.com/"><img src="./icons/linkedin.png" alt="linkedin"></a> 
-                        </li>
-                    </ul>
-                    
-                 </div>
-
-            </div>
-
-            <div class="card">
-                <div class="cardpic">
-                <img src="./imgs/chefs-2.jpg" alt="Sarah Jhonson">
-                </div>
-                <div class="cardcontent">
-                    <h3>Sarah Jhonson</h3>
-                    <span>Patissier</span>
-                    <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
-                </div>
-                <div class="cardicons">
-                    <ul>
-                        <li>
-                            <a href="https://twitter.com/"><img src="./icons/twitter (2).png" alt="twitter"></a>
-                        </li>
-                        
-                        <li>
-                            <a href="https://facebook.com/"><img src="./icons/facebook-app-symbol.png" alt="facebook"></a>
-                        </li>
-
-                        <li>
-                            <a href="https://instagram.com/"><img src="./icons/instagram.png" alt="instagram"></a>   
-                        </li>
-
-                        <li>
-                            <a href="https://linkedin.com/"><img src="./icons/linkedin.png" alt="linkedin"></a> 
-                        </li>
-                    </ul>
-                    
-                 </div>
-            </div>
-
-            <div class="card">
-                <div class="cardpic">
-                <img src="./imgs/chefs-3.jpg" alt="William Anderson">
-                </div>
-                <div class="cardcontent">
-                    <h3>William Anderson</h3>
-                    <span>Cook</span>
-                    <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
-                </div>
-                <div class="cardicons">
-                    <ul>
-                        <li>
-                            <a href="https://twitter.com/"><img src="./icons/twitter (2).png" alt="twitter"></a>
-                        </li>
-                        
-                        <li>
-                            <a href="https://facebook.com/"><img src="./icons/facebook-app-symbol.png" alt="facebook"></a>
-                        </li>
-
-                        <li>
-                            <a href="https://instagram.com/"><img src="./icons/instagram.png" alt="instagram"></a>   
-                        </li>
-
-                        <li>
-                            <a href="https://linkedin.com/"><img src="./icons/linkedin.png" alt="linkedin"></a> 
-                        </li>
-                    </ul>
-                    
-                 </div>
-
- 
-            </div>
- 
-        </div>
-    
-    </div>
-
-    </div>
-    <div id="gallery" class="sec3">
-        <div class="container">
-            <div class="sec3-head">
-                <h2>GALLERY</h2>
-                <p>Check <span>Our Gallery</span></p>
-            </div>
-            <div class="sec3-pics">
-                <div class="pic1">
-                  <img src="./imgs/1.jpg" alt="pizza">
-                  <div class="layer">
-                    <h2>Pizza</h2>
-                    <p>Hawaiian pizza with ham and pineapple</p>
-                  </div>
-                </div>
-                <div class="pic2">
-                  <img src="./imgs/2.jpg" alt="pizza-slices">
-                  <div class="layer">
-                    <h2>Levitation pizza</h2>
-                    <p>Levitation pizza on black background.</p>
-                  </div>
-                </div>
-                <div class="pic3">
-                  <img src="./imgs/3.jpg" alt="steak">
-                  <div class="layer">
-                    <h2>Beef steaks</h2>
-                    <p>
-                      Tasty beef steaks flying above cast iron grate with fire flames.
-                    </p>
-                  </div>
-                </div>
-                <div class="pic4">
-                  <img src="./imgs/4.jpg" alt="omelette">
-                  <div class="layer">
-                    <h2>Frittata</h2>
-                    <p>Frittata or potato pie in a ceramic plate</p>
-                  </div>
-                </div>
-                <div class="pic5">
-                  <img src="./imgs/5.jpg" alt="burger">
-                  <div class="layer">
-                    <h2>Burger</h2>
-                    <p>grass fed bison hamburger with chips &amp; beer</p>
-                  </div>
-                </div>
-                <div class="pic6">
-                  <img src="./imgs/6.jpg" alt="fried">
-                  <div class="layer">
-                    <h2>Crispy Fried Chicken</h2>
-                    <p>
-                      Golden brown chicken legs with a crunchy coating and juicy meat
-                    </p>
-                  </div>
-                </div>
-                <div class="pic7">
-                  <img src="./imgs/7.jpg" alt="kofta">
-                  <div class="layer">
-                    <h2>Lyulya kebab</h2>
-                    <p>
-                      Tender and juicy skewers of ground lamb or beef, flavored with
-                      aromatic spices and herbs
-                    </p>
-                  </div>
-                </div>
+            <div class="carousel-inner text-center">
+              <div class="carousel-item mb-5 text-white active">
+                <img src="./img/488852272_1010745174531855_2284017415377644985_n.jpg" class="d-block m-auto  scrol-img " alt="team">
+                <p class="fs-4 fw-medium text-uppercase mt-3">فريق 2011</p>
+                <p class="fs-5 fw-light  demo-p  mt-3">
+                  بطولة دورى المحترفين
+                </p>
               </div>
-               
+
+            <div class="carousel-inner text-center">
+              <div class="carousel-item mb-5 text-white ">
+                <img src="./img/acv2.jpeg" class="d-block m-auto scrol-img " alt="team">
+                <p class="fs-4 fw-medium text-uppercase mt-3">فريق 2014</p>
+                <p class="fs-5 fw-light  demo-p  mt-3">
+                  بطولة دورى المحترفين
+                </p>
+              </div>
+
+              <div class="carousel-item mb-5 text-white ">
+                <img src="./img/acv3.jpeg" class="d-block m-auto scrol-img " alt="team">
+                <p class="fs-4 fw-medium text-uppercase mt-3">فريق 2014</p>
+                <p class="fs-5 fw-light  demo-p  mt-3">
+                  بطولة دورى المحترفين للعام التالى
+                </p>
+              </div>
+              
+              
+
             </div>
 
-        </div>
-
-    
-    <div id="contact" class="sec4">
-      <div class="container">
-        <div class="sec4-head">
-          <h2>CONTACT</h2>
-          <p>Need Help ? <span>Contact Us</span></p>
-      </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.445785295115!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1681863129691!5m2!1sen!2sus" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-
-      </iframe>
-      <div class="sec4-detl">
-        <div class="group">
-          <div class="icon-sec4">
-            <img src="./icons/Untitled4.png" alt="map">
-          </div>
-          <div class="content">
-            <h3>Our Address</h3>
-            <p>A108 Adam Street, New York, NY 535022</p>
-          </div>
-        </div>
-        <div class="group">
-          <div class="icon-sec4">
-            <img src="./icons/Untitled3.png" alt="emailico">
-          </div>
-          <div class="content">
-            <h3>Email Us</h3>
-            <p>contact@example.com</p>
-          </div>
-        </div>
-        <div class="group">
-          <div class="icon-sec4">
-            <img src="./icons/Untitled2.png" alt="phone">
-          </div>
-          <div class="content">
-            <h3>Call Us</h3>
-            <p>+1 5589 55488 55</p>
-          </div>
-        </div>
-        <div class="group">
-          <div class="icon-sec4">
-            <img src="./icons/Untitled.png" alt="share">
-          </div>
-          <div class="content">
-            <h3>Opening Hours</h3>
-            <p><span>Mon-Sat:</span> 11AM - 23PM; <span>Sunday</span> : Closed</p>
-          </div>
-        </div>
-      </div>
-      <form class="cont-form">
-        <div class="inputgr">
-          <input type="text" placeholder="Your Name" name="name">
-          <input type="email" placeholder="Your Email" name="email">
-        </div>
-        <input type="text" placeholder="Subject" name="subject">
-        <textarea placeholder="Message" name="message"></textarea>
-        <button class="btnfr" type="submit">Send Message</button>
-      </form>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="container">
-        <div class="foot-grs">
-        <div class="foot-gr1">
-          <div class="gr1-head">
-            <img src="./icons/favicon.png" alt="mealify logo">
-            <h2>Mealify</h2>
-          </div>
-          <p>
-            Mealify is a restaurant landing page that offers a delicious dining
-            experience to its customers.
-          </p>
-          <h3 class="soc-text">Social Media</h3>
-          <ul class="social-links">
-            <li>
-              <a href="https://twitter.com" >
-                <img src="./icons/twitter (3).png" alt="twitter">
-              </a>
-            </li>
-            <li>
-              <a href="https://facebook.com">
-                <img src="./icons/facebook-app-symbol (1).png" alt="facebook">
-              </a>
-            </li>
-            <li>
-              <a href="https://instagram.com">
-                <img src="./icons/instagram (1).png" alt="instagram">
-              </a>
-            </li>
-            <li>
-              <a href="https://linkedin.com">
-                <img src="./icons/linkedin (1).png" alt="linkedin">
-              </a>
-            </li>
-          </ul>
-         </div>
-         <div class="foot-gr2">
-          <div class="sub">
-            <h3>
-              Subscribe our Newsletter
-            </h3>
-            <p>
-              Don't miss out on our latest menu updates and exclusive offers - join our newsletter today and stay up-to-date with all things Mealify!
-            </p>
-            <div class="sub-input">
-              <input type="email" placeholder="Enter Your Email Address">
-              <button class="btn-sub">
-                 <img src="./icons/Untitled8.png" alt="massege"><p>Subscribe</p>
-              </button>
-            </div>
-          </div>
-            <div class="quick">
-              <h3>Quick Links</h3>
-            
-            <ul>
-              <li>
-                <a href="./index.html">Menu</a>
-              </li>
-              <li>
-                <a href="./index.html">Promo</a>
-              </li>
-              <li>
-                <a href="./index.html">About Us</a>
-              </li>
-              <li>
-                <a href="./index.html">Contact</a>
-              </li>
-              <li>
-                <a href="./index.html">Testimonial</a>
-              </li>
-              <li>
-                <a href="./index.html">Our Partners</a>
-              </li>
-            </ul>
-          </div>
-          </div>
-          <div class="contact-det">
-            <h3>Get in Touch</h3>
-            <ul>
-              <li>
-                <img src="./icons/Untitled.10.png" alt="location">
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </li>
-              <li>
-                <img src="./icons/Untitled11.png" alt="massege">
-                <a href="./index.html">contact@example.com</a>
-              </li>
-              <li>
-                <img src="./icons/Untitled12.png" alt="phone">
-                <a href="./index.html">+1 5589 55488 55</a>
-              </li>
-            </ul>
           </div>
 
+      </div>
+      <div class="text-center position-relative mb-5 sec-head">
+        <h3 class=" mt-2 fw-bold fs-1">Gallrey</h3>
+        <p class="text-white">بعض من صور ابطالنا</p>
+     </div>
+      <div class="row">
+        <div class="parent-demo">
+          <div class="demo rounded-3 p-4 mb-5">
+        <div class="col-md-12">
           
-        
-            
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner text-center imgs-grs">
+              <div class="carousel-item  active" data-bs-interval="10000">
+                <img src="./img/1.jpeg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/2.jpg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/3.jpeg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/4.jpeg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/5.jpg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/6.jpeg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/7.jpeg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/8.jpg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/9.jpg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/10.jpeg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/11.jpeg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/12.jpg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/13.jpeg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/14.jpeg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/15.jpg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/16.jpeg" class="d-block " alt="Gallrey">
+              </div>
+              
+              <div class="carousel-item">
+                <img src="./img/18.jpeg" class="d-block " alt="Gallrey">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/19.jpg" class="d-block " alt="Gallrey">
+              </div>
 
+              <div class="carousel-item">
+                <img src="./img/20.jpg" class="d-block " alt="Gallrey">
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+
+       </div>
+       </div>
+       </div>
+</div>
+
+
+
+
+
+   </section>
+
+   <section id="blog">
+  
+      <div class="container ">
+        <div class="text-center position-relative mb-5 sec-head">
+          <h3 class=" fw-bold fs-1">BLOG</h3>
+          <p class="text-white">عيش التجربة مع بعض التدريبات الخاصة بنا هنا</p>
+       </div>
+
+       <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4 px-lg-1">
+          <div class="card position-relative rounded-3">
+            <iframe class="rounded-bottom-0 rounded-top-3 " width="100%" height="315" src="https://www.youtube.com/embed/u50yHfVrrCE?si=ZGPh1oK_Oq9A3nKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            <div class="card-body pt-0 position-relative ">
+              <p class="mt-3 mb-2 fs-6 text-center cardtxt-1">Tactics</p>
+              <a href="https://youtu.be/u50yHfVrrCE" class=" card-link crd-lnk d-block mb-2 text-center     fs-5 fw-medium text-decoration-none">Watch Video In YouTube</a>
+              
+              <p class=" mt-1 card-txt-2 card-text text-white">كل مبارياتنا الرسمية بيتم تصويرها بالفيديو ، وبيشتغل عليها فريق متخصص في تحليل الأداء!</p>
+            </div>
+            <div class="card-footer text-center">
+               <div class="crd-gr1 ">
+                  <img class=" me-1" src="./img/logo.png" alt="logo">
+                  <a class="card-link text-decoration-none  " href="./index.html">Black Horse Academy</a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 px-lg-1">
+          <div class="card rounded-3">
+            <iframe class="rounded-bottom-0 rounded-top-3 " width="100%" height="315" src="https://www.youtube.com/embed/XMKTm3ZGoz4?si=GbmGKhnB_TFVeMzu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            <div class="card-body pt-0 position-relative ">
+              <p class="mt-3 mb-2 fs-6 text-center cardtxt-1">Chess</p>
+              <a href="https://youtu.be/u50yHfVrrCE" class=" card-link crd-lnk d-block mb-2 text-center     fs-5 fw-medium text-decoration-none">Watch Video In YouTube</a>
+              <p class=" mt-1 card-txt-2 card-text text-white">أول أكاديمية كرة قدم تدمج الشطرنج بكرة القدم  تدريب عقلك قبل قدمك" بناء لاعب ذكي يبدأ من هنا  "من أسرار بلاك هورس"</p>
+            </div>
+            <div class="card-footer text-center">
+               <div class="crd-gr1 ">
+                  <img class=" me-1" src="./img/logo.png" alt="logo">
+                  <a class="card-link text-decoration-none  " href="./index.html">Black Horse Academy</a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 px-lg-1">
+          <div class="card position-relative rounded-3">
+            <iframe  width="100%" height="315" src="https://www.youtube.com/embed/QoTSpWEiGsg?si=h7aQUxVFrjjackrm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><div class="card-body pt-0 position-relative ">
+              
+              <p class="mt-3 mb-2 fs-6 text-center cardtxt-1">Tactics</p>
+              <a href="https://youtu.be/u50yHfVrrCE" class=" card-link crd-lnk d-block mb-2 text-center     fs-5 fw-medium text-decoration-none">Watch Video In YouTube</a>
+              <p class=" mt-1 mb-1 card-txt-2 card-text text-white">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+            </div>
+            <div class="card-footer text-center">
+               <div class="crd-gr1 ">
+                  <img class=" me-1" src="./img/logo.png" alt="logo">
+                  <a class="card-link text-decoration-none  " href="./index.html">Black Horse Academy</a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 mb-4 px-lg-1">
+          <div class="card position-relative rounded-3">
+            <iframe class="rounded-bottom-0 rounded-top-3 " width="100%" height="315" src="https://www.youtube.com/embed/u50yHfVrrCE?si=ZGPh1oK_Oq9A3nKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            <div class="card-body pt-0 position-relative ">
+              <p class="mt-3 mb-2 fs-6 text-center cardtxt-1">Skills</p>
+              <a href="https://youtu.be/u50yHfVrrCE" class=" card-link crd-lnk d-block mb-2 text-center     fs-5 fw-medium text-decoration-none">Watch Video In YouTube</a>
+              <p class=" mt-1 mb-1 card-txt-2 card-text text-white">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+            </div>
+            <div class="card-footer text-center">
+               <div class="crd-gr1 ">
+                  <img class=" me-1" src="./img/logo.png" alt="logo">
+                  <a class="card-link  text-decoration-none  " href="./index.html">Black Horse Academy</a>
+                </div>
+                
+                
+            </div>
+          </div>
+        </div>
+        
+        
         </div>
         </div>
-        </div>
-      </div>
-    </div>
+       
+   </section>
+
+   <footer class="text-center text-white" id="footer">
+    <p class=" mb-1 fw-normal">© Copyright <a href="https://www.facebook.com/omarkhalifa.201/" class="fw-bold text-decoration-none text-primary">Omar Khalifa</a>. All Rights Reserved</p>
+    <p class="mb-0">Designed by <a class="text-primary text-decoration-none" href="https://www.facebook.com/omarkhalifa.201/">Omar Khalifa</a></p>
+  </footer>
+  
+    
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
